@@ -22,13 +22,13 @@ const Home: NextPage = () => {
           className={styles.optionSelectBox}
           role="button"
         ><br></br>
-          <img src={`https://billionaireducks.club/images/token.png`}alt="Token" />
+          <img src={`https://billionaireducks.club/images/token.png`} alt="Token" />
           <h2 className={styles.selectBoxTitle}>Stake your NFTs</h2>
           <p className={styles.selectBoxDescription}>
             Your Staked NFTs will be transferred to our staking contract which means it will not be available to sell or
              transfer on opensea as long as it is <b>staked.</b><br></br><br></br>
               In order to be able to sell or transfer your NFT on opensea, you have to <b>unstake</b> it and
-              it'll be transferred back to your wallet.<br></br><br></br>
+              it will be transferred back to your wallet.<br></br><br></br>
               <button className={styles.mainButtone}   onClick={() => router.push(`/stake`)}>I Understand</button>
               <br></br><br></br>
           </p>
