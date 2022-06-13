@@ -443,16 +443,20 @@
   width: 48%;
   min-height: 200px;
   height: 100%;
+  background-color: rgba(34, 34, 34, 0.644);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
   cursor: pointer;
 }
-
-.selectBoxTitle {
+.optionSelectBox img {
+  height:50px;
+  width: 50px;
+}
+  .selectBoxTitle {
   font-size: 1.75rem;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -461,6 +465,7 @@
 .selectBoxDescription {
   color: rgba(255, 255, 255, 0.9);
   margin-top: 0px;
+  font-size: 1.5rem;
 }
 
 /* Between 1200 and 800 */

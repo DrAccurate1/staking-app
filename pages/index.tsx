@@ -8,7 +8,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>thirdweb Deploy - Custom Staking Contract</h1>
+      <br></br><br></br><br></br>
+      <h1 className={styles.h1}>Billionaire Ducks Club - NFT Staking Platform</h1>
 
       <div
         className={styles.nftBoxGrid}
@@ -16,24 +17,20 @@ const Home: NextPage = () => {
         onClick={() => router.push(`/stake`)}
       >
         {/* Mint a new NFT */}
-        <div className={styles.optionSelectBox}>
-          <img className={styles.logo} src={`/icons/drop.webp`} alt="drop" />
-          <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
-          <p className={styles.selectBoxDescription}>
-            Use the NFT Drop Contract to claim an NFT from the collection.
-          </p>
-        </div>
 
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`/stake`)}
-        >
-          <img src={`/icons/token.webp`} alt="drop" />
-          <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
+        ><br></br>
+          <img src={`https://billionaireducks.club/images/token.png`}alt="Token" />
+          <h2 className={styles.selectBoxTitle}>Stake your NFTs</h2>
           <p className={styles.selectBoxDescription}>
-            Use the custom staking contract deployed via <b>thirdweb Deploy</b>{" "}
-            to stake your NFTs, and earn tokens from the <b>Token</b> contract.
+            Your Staked NFTs will be transferred to our staking contract which means it will not be available to sell or
+             transfer on opensea as long as it is <b>staked.</b><br></br><br></br>
+              In order to be able to sell or transfer your NFT on opensea, you have to <b>unstake</b> it and
+              it'll be transferred back to your wallet.<br></br><br></br>
+              <button className={styles.mainButtone}   onClick={() => router.push(`/stake`)}>I Understand</button>
+              <br></br><br></br>
           </p>
         </div>
       </div>

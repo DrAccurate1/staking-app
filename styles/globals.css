@@ -60,6 +60,7 @@ body {
   justify-content: center;
   font-family: "Inter", sans-serif;
   color: var(--white);
+  background-color: #1c1e21;
   margin: 0;
   text-align: center;
 }
